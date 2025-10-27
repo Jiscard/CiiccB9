@@ -6,7 +6,7 @@ public class Main {
        
     }
 }
-public class Plants{
+class Plant{
     int branch;
     String name;
     int leaves;

@@ -1,12 +1,10 @@
 public class Test {
     public static void main(String[] args) {
-        int luck = 10;
-
-        if((luck>10 ? luck++ : --luck) < 10){
-            System.out.println("Unlucky");
-        } else {
-            System.out.println("Lucky");
-        }
+        int[] numbers = 
+             {1,2,3,4,5,6,7,8,9,10};
+         for (int item : numbers) {
+             System.out.println("Count is: " + item);
+         }
        
     }
 }
